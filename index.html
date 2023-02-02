@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Binds</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="audioBtn">
+          <div class="sound boom" ><audio src="sounds/boom.wav" id="boom" ></audio>A<div class="underline">BOOM</div></div>
+          <div class="sound clap"><audio src="sounds/clap.wav" id="clap" ></audio>S<div class="underline">CLAP</div></div>
+          <div class="sound hihat"><audio src="sounds/hihat.wav" id="hihat"></audio>D<div class="underline">HIHAT</div></div>
+          <div class="sound kick"><audio src="sounds/kick.wav" id="kick"></audio>F<div class="underline">KICK</div></div>
+          <div class="sound openhat"><audio src="sounds/openhat.wav" id="openhat"></audio>G<div class="underline">OPENHAT</div></div>
+          <div class="sound ride"><audio src="sounds/ride.wav" id="ride"></audio>H<div class="underline">RIDE</div></div>
+          <div class="sound snare"><audio src="sounds/snare.wav" id="snare"></audio>J<div class="underline">SNARE</div></div>
+          <div class="sound tink"><audio src="sounds/tink.wav" id="tink"></audio>K<div class="underline">TINK</div></div>
+          <div class="sound tom" ><audio src="sounds/tom.wav" id="tom"></audio>L<div class="underline">TOM</div></div>
+        </div>
+        
+        <div class="opitonBtn">
+          <div class="channels">
+            <div class="ch one">CHANNEL 1 <input type="radio" name="channel" id="channelOne" value="one"><label for="channelOne"></label></div>
+            <div class="ch two">CHANNEL 2 <input type="radio" name="channel" id="channelTwo" value="two"><label for="channelTwo"></label></div>
+            <div class="ch three">CHANNEL 3 <input type="radio" name="channel" id="channelThree" value="three"><label for="channelThree"></label></div>
+            <div class="ch four">CHANNEL 4 <input type="radio" name="channel" id="channelFour" value="four"><label for="channelFour"></label></div>
+          </div>
+
+          <div class="option">
+            <button id="playBtn"></button>
+            <button id="recordBtn"></button>            
+          </div>
+        </div>
+        
+        <script src="main.js" type="text/javascript" ></script>
+      </div>
+    </div>
+  </body>
+
+</html>
